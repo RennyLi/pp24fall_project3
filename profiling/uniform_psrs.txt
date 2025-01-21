@@ -1,0 +1,719 @@
+PSRS MPI for Uniform dataset (Optimized with -O2)
+Number of cores: 1
+[node01:0] Phase 0 took 3775 ms
+[node01:0] Phase Merge took 438 ms
+Sorting Complete!
+Execution Time: 17795 		milliseconds
+std::sort Time: 14759 milliseconds
+Pass the sorting result check!
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    99,283,048,298      cpu-cycles:u                                                
+       273,356,790      cache-misses:u                                              
+         1,088,111      page-faults:u                                               
+
+      36.819884135 seconds time elapsed
+
+      34.536699000 seconds user
+       1.921361000 seconds sys
+
+
+Number of cores: 4
+[node01:0] Phase 0 took 4651 ms
+[node01:0] Phase Merge took 513 ms
+Sorting Complete!
+Execution Time: 7007 		milliseconds
+std::sort Time: 16242 milliseconds
+Pass the sorting result check!
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    76,741,275,246      cpu-cycles:u                                                
+        56,619,802      cache-misses:u                                              
+           122,716      page-faults:u                                               
+
+      29.988084151 seconds time elapsed
+
+      26.975764000 seconds user
+       1.203001000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    77,011,632,153      cpu-cycles:u                                                
+        65,504,321      cache-misses:u                                              
+           124,245      page-faults:u                                               
+
+      28.294018949 seconds time elapsed
+
+      27.067649000 seconds user
+       1.137296000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    76,904,672,350      cpu-cycles:u                                                
+        63,159,247      cache-misses:u                                              
+           124,272      page-faults:u                                               
+
+      28.295041666 seconds time elapsed
+
+      27.075638000 seconds user
+       1.130354000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    77,841,424,724      cpu-cycles:u                                                
+       169,641,986      cache-misses:u                                              
+           635,992      page-faults:u                                               
+
+      29.945766369 seconds time elapsed
+
+      27.045646000 seconds user
+       1.239143000 seconds sys
+
+
+Number of cores: 16
+[node01:0] Phase 0 took 4603 ms
+[node01:0] Phase Merge took 538 ms
+Sorting Complete!
+Execution Time: 2148 		milliseconds
+std::sort Time: 16564 milliseconds
+Pass the sorting result check!
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    63,898,901,512      cpu-cycles:u                                                
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    63,952,618,162      cpu-cycles:u                                                
+        10,663,545      cache-misses:u                                              
+            27,694      page-faults:u                                               
+
+      35.666759786 seconds time elapsed
+
+      22.491442000 seconds user
+       0.927810000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    64,234,186,099      cpu-cycles:u                                                
+        10,804,179      cache-misses:u                                              
+            27,704      page-faults:u                                               
+
+      35.246418890 seconds time elapsed
+
+      22.617039000 seconds user
+       0.918509000 seconds sys
+
+
+        11,215,882      cache-misses:u                                              
+            27,663      page-faults:u                                               
+
+      37.048933674 seconds time elapsed
+
+      22.605859000 seconds user
+       0.918767000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    63,695,944,842      cpu-cycles:u                                                
+        11,093,276      cache-misses:u                                              
+            27,702      page-faults:u                                               
+
+      35.378874225 seconds time elapsed
+
+      22.411151000 seconds user
+       0.907793000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    64,190,206,404      cpu-cycles:u                                                
+        10,139,003      cache-misses:u                                              
+            27,689      page-faults:u                                               
+
+      34.469958644 seconds time elapsed
+
+      22.619042000 seconds user
+       0.918671000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    49,602,526,911      cpu-cycles:u                                                
+        11,314,220      cache-misses:u                                              
+            27,670      page-faults:u                                               
+
+      23.683467558 seconds time elapsed
+
+      17.346745000 seconds user
+       2.496842000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    63,787,801,215      cpu-cycles:u                                                
+        10,576,351      cache-misses:u                                              
+            27,703      page-faults:u                                               
+
+      32.219796961 seconds time elapsed
+
+      22.488488000 seconds user
+       0.970850000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    64,264,813,154      cpu-cycles:u                                                
+        11,925,113      cache-misses:u                                              
+            27,702      page-faults:u                                               
+
+      23.717806176 seconds time elapsed
+
+      22.622690000 seconds user
+       0.979561000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    64,363,940,737      cpu-cycles:u                                                
+        12,064,980      cache-misses:u                                              
+            27,721      page-faults:u                                               
+
+      23.950164508 seconds time elapsed
+
+      22.617410000 seconds user
+       0.983625000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    64,354,499,648      cpu-cycles:u                                                
+        12,055,720      cache-misses:u                                              
+            27,712      page-faults:u                                               
+
+      23.740888751 seconds time elapsed
+
+      22.676091000 seconds user
+       0.930828000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    64,215,237,908      cpu-cycles:u                                                
+        11,746,337      cache-misses:u                                              
+            27,689      page-faults:u                                               
+
+      24.660776092 seconds time elapsed
+
+      22.599240000 seconds user
+       0.954349000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    64,254,170,558      cpu-cycles:u                                                
+
+        11,704,404      cache-misses:u                                              
+            27,718      page-faults:u                                               
+
+      24.583938195 seconds time elapsed
+
+      22.669225000 seconds user
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+       0.903696000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    64,389,209,829      cpu-cycles:u                                                
+        11,807,414      cache-misses:u                                              
+            27,726      page-faults:u                                               
+
+      24.892348538 seconds time elapsed
+
+    64,176,829,091      cpu-cycles:u                                                
+      22.727533000 seconds user
+       0.872754000 seconds sys
+
+
+        11,285,455      cache-misses:u                                              
+            27,702      page-faults:u                                               
+
+      23.799905896 seconds time elapsed
+
+      22.636514000 seconds user
+       0.905739000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    63,995,054,779      cpu-cycles:u                                                
+        11,824,862      cache-misses:u                                              
+            27,673      page-faults:u                                               
+
+      23.765760270 seconds time elapsed
+
+      22.561424000 seconds user
+       0.944088000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    64,123,114,677      cpu-cycles:u                                                
+       121,684,240      cache-misses:u                                              
+           564,530      page-faults:u                                               
+
+      38.051017790 seconds time elapsed
+
+      22.288638000 seconds user
+       1.038784000 seconds sys
+
+
+Number of cores: 32
+[node01:0] Phase 0 took 5077 ms
+[node01:0] Phase Merge took 716 ms
+Sorting Complete!
+Execution Time: 2974 		milliseconds
+std::sort Time: 21546 milliseconds
+Pass the sorting result check!
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    69,511,517,652      cpu-cycles:u                                                
+         6,278,975      cache-misses:u                                              
+            19,721      page-faults:u                                               
+
+      31.636718305 seconds time elapsed
+
+      24.566886000 seconds user
+       1.020644000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    56,725,846,166      cpu-cycles:u                                                
+         6,189,728      cache-misses:u                                              
+            19,673      page-faults:u                                               
+
+      31.546285716 seconds time elapsed
+
+      20.037848000 seconds user
+       0.868599000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    62,836,510,374      cpu-cycles:u                                                
+         6,157,547      cache-misses:u                                              
+            19,695      page-faults:u                                               
+
+      31.853010780 seconds time elapsed
+
+      22.213828000 seconds user
+       0.933424000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    70,098,121,840      cpu-cycles:u                                                
+         5,920,565      cache-misses:u                                              
+            16,632      page-faults:u                                               
+
+      30.925690803 seconds time elapsed
+
+      24.735926000 seconds user
+       1.047012000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    61,371,871,363      cpu-cycles:u                                                
+         5,913,876      cache-misses:u                                              
+            19,652      page-faults:u                                               
+
+      35.130947245 seconds time elapsed
+
+      21.740579000 seconds user
+       0.879387000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    60,131,657,090      cpu-cycles:u                                                
+         6,260,428      cache-misses:u                                              
+            16,617      page-faults:u                                               
+
+      30.620454573 seconds time elapsed
+
+      21.273232000 seconds user
+       0.864989000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    56,413,696,494      cpu-cycles:u                                                
+         6,254,037      cache-misses:u                                              
+            19,738      page-faults:u                                               
+
+      30.478876153 seconds time elapsed
+
+      19.974914000 seconds user
+       0.779223000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    68,867,167,569      cpu-cycles:u                                                
+         4,964,017      cache-misses:u                                              
+            16,685      page-faults:u                                               
+
+      47.537761629 seconds time elapsed
+
+      24.253840000 seconds user
+       1.127319000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    68,084,098,920      cpu-cycles:u                                                
+         5,059,622      cache-misses:u                                              
+            19,725      page-faults:u                                               
+
+      48.863706642 seconds time elapsed
+
+      24.107761000 seconds user
+       0.998326000 seconds sys
+
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    66,306,934,916      cpu-cycles:u                                                
+         5,225,485      cache-misses:u                                              
+            16,638      page-faults:u                                               
+
+    56,301,694,507      cpu-cycles:u                                                
+         5,336,443      cache-misses:u                                              
+      53.481015678 seconds time elapsed
+
+      23.460651000 seconds user
+       0.950403000 seconds sys
+
+
+            16,613      page-faults:u                                               
+
+      54.417137363 seconds time elapsed
+
+      19.918153000 seconds user
+       0.839578000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    68,882,443,114      cpu-cycles:u                                                
+         5,189,528      cache-misses:u                                              
+            16,662      page-faults:u                                               
+
+      52.606862648 seconds time elapsed
+
+      24.385695000 seconds user
+       1.069886000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    60,194,641,396      cpu-cycles:u                                                
+         5,429,960      cache-misses:u                                              
+            19,696      page-faults:u                                               
+
+      52.924563731 seconds time elapsed
+
+      21.334529000 seconds user
+       0.853224000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    55,139,526,282      cpu-cycles:u                                                
+         5,457,758      cache-misses:u                                              
+            16,644      page-faults:u                                               
+
+      51.187104568 seconds time elapsed
+
+      19.417902000 seconds user
+       0.878772000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    49,614,007,326      cpu-cycles:u                                                
+         5,274,016      cache-misses:u                                              
+            16,656      page-faults:u                                               
+
+      54.513646357 seconds time elapsed
+
+      17.558981000 seconds user
+       0.784622000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    63,741,478,966      cpu-cycles:u                                                
+         5,277,913      cache-misses:u                                              
+            19,699      page-faults:u                                               
+
+      55.400141491 seconds time elapsed
+
+      22.518754000 seconds user
+       0.966356000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    62,872,458,031      cpu-cycles:u                                                
+         5,283,479      cache-misses:u                                              
+            16,673      page-faults:u                                               
+
+      37.461708543 seconds time elapsed
+
+      22.298087000 seconds user
+       1.006071000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    64,664,155,039      cpu-cycles:u                                                
+         5,336,912      cache-misses:u                                              
+            16,636      page-faults:u                                               
+
+      58.073922681 seconds time elapsed
+
+      22.844277000 seconds user
+       1.116496000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    67,345,842,337      cpu-cycles:u                                                
+         5,289,935      cache-misses:u                                              
+            19,709      page-faults:u                                               
+
+      53.225333021 seconds time elapsed
+
+      23.832280000 seconds user
+       1.006461000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    49,985,446,307      cpu-cycles:u                                                
+         6,784,535      cache-misses:u                                              
+            19,671      page-faults:u                                               
+
+      32.311579055 seconds time elapsed
+
+      17.663494000 seconds user
+       0.754985000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    59,986,462,873      cpu-cycles:u                                                
+    58,572,735,401      cpu-cycles:u                                                
+         5,922,803      cache-misses:u                                              
+            19,681      page-faults:u                                               
+
+      33.166273444 seconds time elapsed
+
+      20.692838000 seconds user
+       0.876298000 seconds sys
+
+
+         6,271,522      cache-misses:u                                              
+            16,620      page-faults:u                                               
+
+      30.714486276 seconds time elapsed
+
+      21.182798000 seconds user
+       0.897416000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    57,855,779,343      cpu-cycles:u                                                
+         5,674,800      cache-misses:u                                              
+            19,713      page-faults:u                                               
+
+      32.156088222 seconds time elapsed
+
+      20.392278000 seconds user
+       0.914053000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    58,050,527,042      cpu-cycles:u                                                
+         6,223,512      cache-misses:u                                              
+            16,628      page-faults:u                                               
+
+      30.782592768 seconds time elapsed
+
+      20.468456000 seconds user
+       0.890318000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    69,548,335,844      cpu-cycles:u                                                
+         5,267,982      cache-misses:u                                              
+            16,612      page-faults:u                                               
+
+      40.616311537 seconds time elapsed
+
+      24.567638000 seconds user
+       1.092357000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    70,466,168,523      cpu-cycles:u                                                
+         5,173,044      cache-misses:u                                              
+            16,620      page-faults:u                                               
+
+      30.058663951 seconds time elapsed
+
+      25.091044000 seconds user
+       1.385573000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    63,888,407,410      cpu-cycles:u                                                
+         5,247,215      cache-misses:u                                              
+            19,703      page-faults:u                                               
+
+      51.281632081 seconds time elapsed
+
+      22.599388000 seconds user
+       0.993817000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    50,276,862,553      cpu-cycles:u                                                
+         4,997,504      cache-misses:u                                              
+            19,731      page-faults:u                                               
+
+      50.221372638 seconds time elapsed
+
+      17.799904000 seconds user
+       0.734619000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    62,874,450,567      cpu-cycles:u                                                
+         5,006,441      cache-misses:u                                              
+            16,647      page-faults:u                                               
+
+      54.454536101 seconds time elapsed
+
+      22.274841000 seconds user
+       1.008224000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    49,724,749,981      cpu-cycles:u                                                
+         5,536,805      cache-misses:u                                              
+            19,685      page-faults:u                                               
+
+      58.495571540 seconds time elapsed
+
+      17.541902000 seconds user
+       0.802071000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    70,994,078,508      cpu-cycles:u                                                
+         5,079,537      cache-misses:u                                              
+            16,642      page-faults:u                                               
+
+      52.027123004 seconds time elapsed
+
+      25.120099000 seconds user
+       1.054886000 seconds sys
+
+
+
+ Performance counter stats for './build/src/psrs/psrs_mpi uniform 100000000':
+
+    65,021,424,312      cpu-cycles:u                                                
+       119,973,623      cache-misses:u                                              
+           553,583      page-faults:u                                               
+
+      50.162573271 seconds time elapsed
+
+      22.663765000 seconds user
+       1.065828000 seconds sys
+
+
+

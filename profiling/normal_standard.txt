@@ -1,0 +1,14 @@
+std::sort Sequential for Normal dataset (Optimized with -O2)
+std::sort Complete!
+Execution Time: 11700 milliseconds
+
+ Performance counter stats for './build/src/std_sort normal 100000000':
+
+    50,616,129,269      cpu-cycles:u                                                
+        52,905,765      cache-misses:u                                              
+             2,109      page-faults:u                                               
+
+      17.624562261 seconds time elapsed
+
+      17.491938000 seconds user
+       0.088791000 seconds sys

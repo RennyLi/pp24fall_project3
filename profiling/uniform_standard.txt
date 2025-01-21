@@ -1,0 +1,17 @@
+std::sort Sequential for Uniform dataset (Optimized with -O2)
+std::sort Complete!
+Execution Time: 12315 milliseconds
+
+ Performance counter stats for './build/src/std_sort uniform 100000000':
+
+    42,831,703,469      cpu-cycles:u                                                
+        74,118,682      cache-misses:u                                              
+           361,798      page-faults:u                                               
+
+      15.462323613 seconds time elapsed
+
+      14.928864000 seconds user
+       0.491875000 seconds sys
+
+
+

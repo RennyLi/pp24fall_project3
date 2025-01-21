@@ -1,0 +1,74 @@
+Merge Sort for Normal dataset (Optimized with -O2)
+Number of threads: 1
+Merge Sort Complete!
+Execution Time: 202096 milliseconds
+std::sort Time: 12238 milliseconds
+Pass the sorting result check!
+
+ Performance counter stats for './build/src/mergesort/mergesort_openmp normal 1 100000000':
+
+   324,889,556,463      cpu-cycles:u                                                
+       347,036,438      cache-misses:u                                              
+         1,109,121      page-faults:u                                               
+
+     221.361539220 seconds time elapsed
+
+     150.274049000 seconds user
+      70.557932000 seconds sys
+
+
+Number of threads: 4
+Merge Sort Complete!
+Execution Time: 120122 milliseconds
+std::sort Time: 12335 milliseconds
+Pass the sorting result check!
+
+ Performance counter stats for './build/src/mergesort/mergesort_openmp normal 4 100000000':
+
+   402,975,941,981      cpu-cycles:u                                                
+       568,224,046      cache-misses:u                                              
+         1,289,023      page-faults:u                                               
+
+     140.067368899 seconds time elapsed
+
+     178.593522000 seconds user
+      77.330306000 seconds sys
+
+
+Number of threads: 16
+Merge Sort Complete!
+Execution Time: 118345 milliseconds
+std::sort Time: 13972 milliseconds
+Pass the sorting result check!
+
+ Performance counter stats for './build/src/mergesort/mergesort_openmp normal 16 100000000':
+
+   392,919,368,962      cpu-cycles:u                                                
+       382,236,983      cache-misses:u                                              
+         1,233,185      page-faults:u                                               
+
+     139.597653831 seconds time elapsed
+
+     175.175229000 seconds user
+      78.209583000 seconds sys
+
+
+Number of threads: 32
+Merge Sort Complete!
+Execution Time: 119395 milliseconds
+std::sort Time: 12409 milliseconds
+Pass the sorting result check!
+
+ Performance counter stats for './build/src/mergesort/mergesort_openmp normal 32 100000000':
+
+   397,069,448,576      cpu-cycles:u                                                
+       484,631,792      cache-misses:u                                              
+         1,298,186      page-faults:u                                               
+
+     139.559648842 seconds time elapsed
+
+     177.273445000 seconds user
+      75.149046000 seconds sys
+
+
+
